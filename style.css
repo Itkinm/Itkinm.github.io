@@ -1,5 +1,36 @@
-.header {
-  background-size: cover;
-  background-position: center center ;
-  background-image: "/1.jpg";
+* {
+ margin: 0;
+ padding: 0;
+ border-style: none;
+ box-sizing: border-box;
 }
+
+body {
+background-image: url("https://www.walldevil.com/wallpapers/a76/3927-brick-wall.jpg");
+background-repeat: repeat-y;
+background-size: auto;
+background-position: center center ;
+height: 2000px;
+}
+
+.header {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  border-color: #FF0000;
+}
+
+.links {
+  padding-top: 1em;
+  text-align: center;
+  border-color: #00FF00;
+}
+
+li {
+  display: inline;
+  margin: 0 5em;
+  border-color: #0000FF;
+}
+
+
+a {border-color: #000000;}
