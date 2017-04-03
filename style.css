@@ -13,6 +13,14 @@ background-position: center center ;
 height: 2000px;
 }
 
+li {
+  display: inline;
+  margin: 0 5em;
+  border-color: #0000FF;
+}
+
+a {border-color: #000000;}
+
 .header {
   width: 100%;
   z-index: 1;
@@ -26,11 +34,9 @@ height: 2000px;
   border-color: #00FF00;
 }
 
-li {
-  display: inline;
-  margin: 0 5em;
-  border-color: #0000FF;
+.text {
+  font-family: arial;
+  text-align: center;
+  padding-top: 10em;
+  color: white;
 }
-
-
-a {border-color: #000000;}
