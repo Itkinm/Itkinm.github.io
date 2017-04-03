@@ -26,10 +26,12 @@ a {border-color: #000000;}
   z-index: 1;
   position: fixed;
   border-color: #FF0000;
+  background-color: #888888;
 }
 
 .links {
   padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   border-color: #00FF00;
 }
