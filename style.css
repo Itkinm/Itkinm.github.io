@@ -10,10 +10,10 @@ background-image: url("https://www.walldevil.com/wallpapers/a76/3927-brick-wall.
 background-repeat: repeat-y;
 background-size: auto;
 background-position: center center ;
-height: 2000px;
+height: auto;
 }
 
-li {
+.link {
   display: inline;
   margin: 0 5em;
   border-color: #0000FF;
@@ -21,12 +21,18 @@ li {
 
 a {border-color: #000000;}
 
+img {
+  margin-top: 3em;
+  width: 600px;
+}
+
 .header {
   width: 100%;
   z-index: 1;
   position: fixed;
   border-color: #FF0000;
-  background-color: #888888;
+  background-color: #DDDDDD;
+  opacity: 1;
 }
 
 .links {
@@ -34,11 +40,22 @@ a {border-color: #000000;}
   padding-bottom: 1em;
   text-align: center;
   border-color: #00FF00;
+  font-size: 1.2em;
 }
 
-.text {
+.title {
+  position: relative;
+  top: 4em;
   font-family: arial;
+  font-size: 1.5em;
   text-align: center;
-  padding-top: 10em;
-  color: white;
+  color: black;
+  background-color: white;
+  padding: 1em;
+}
+
+.photos {
+  position: relative;
+  top: 7em;
+  text-align: center;
 }
