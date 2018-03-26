@@ -6,20 +6,27 @@
 }
 
 body {
-background-image: url("https://www.walldevil.com/wallpapers/a76/3927-brick-wall.jpg");
-background-repeat: repeat-y;
-background-size: auto;
-background-position: center center ;
-height: auto;
+	background-image: url("https://www.walldevil.com/wallpapers/a76/3927-brick-wall.jpg");
+	background-repeat: repeat-y;
+	background-size: auto;
+	background-position: center center ;
+	height: auto;
 }
 
 .link {
-  display: inline;
-  margin: 0 5em;
-  border-color: #0000FF;
+	display: inline;
+	margin: 0 5em;
+	border-color: #0000FF;
 }
 
-a {border-color: #000000;}
+a, a:visited {
+	border-color: #000000;
+   	color: blue;
+ }
+
+a:hover {
+    color: red;
+} 
 
 img {
   margin-top: 3em;
@@ -58,4 +65,8 @@ img {
   position: relative;
   top: 6em;
   text-align: center;
+}
+
+.telega {
+	margin-top: 9em;
 }
