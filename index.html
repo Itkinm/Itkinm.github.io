@@ -16,12 +16,17 @@
       <li class="link">
         <a href="http://rating.chgk.info/team/48092" target="_blank">Рейтинг</a> </li>
     </ul>
-  </div>
+    
+    <div class="login">
+      <script async src="https://telegram.org/js/telegram-widget.js?4" data-telegram-login="botianya_com_bot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write">
+      </script>
+      <script type="text/javascript">
+        function onTelegramAuth(user) {
+        alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+        }
+      </script>
+    </div> 
 
-  <div class="title">
-    <h1>
-      Всадники Тамблвида
-    </h1>
   </div>
 
   <div class="login">
@@ -32,7 +37,13 @@
       alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
       }
     </script>
-  </div>  
+  </div> 
+
+  <div class="title">
+    <h1>
+      Всадники Тамблвида
+    </h1>
+  </div> 
 
   <div class="photos">
     <ul>

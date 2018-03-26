@@ -73,6 +73,7 @@ img {
 }
 
 .login {
-  top: 8em;
-  position: relative;
+  top: 1em;
+  position: absolute;
+  right: 0em;
 }
