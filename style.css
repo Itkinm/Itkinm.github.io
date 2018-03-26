@@ -11,6 +11,7 @@ body {
 	background-size: auto;
 	background-position: center center ;
 	height: auto;
+	text-align: center;
 }
 
 .link {
@@ -72,5 +73,6 @@ img {
 }
 
 .login {
-	margin-top: 100em;
+  top: 8em;
+  position: relative;
 }
